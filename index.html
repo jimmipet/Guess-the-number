@@ -4,9 +4,33 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./src/css/styles.css">
 	<title>Угадай число</title>
 </head>
 <body>
-	
+	<header>
+		<button class="btn again">Снова!</button>
+		<div class="center">
+			<h1>Угадай число</h1>
+			<div class="number">?</div>
+		</div>
+		<p class="beetwen">(число от 1 до 20)</p>
+	</header>
+
+	<main>
+
+		<section class="left">
+			<p class="message">Начните угадывать число...</p>
+			<input type="number" class="guess">
+			<button class="btn check">Проверка</button>
+		</section>
+
+		<section class="rigth">
+			<p class="label-score">Счет <span class="score">20</span></p>
+			<p class="label-higth-score">Рекорд <span class="higth-score">0</span></p>
+		</section>
+
+	</main>
+	<script src="./src/js/app.js"></script>
 </body>
 </html>
