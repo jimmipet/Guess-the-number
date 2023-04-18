@@ -1,8 +1,11 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  background: grey;
   color: white;
+}
+
+body {
+  background: radial-gradient(circle, #5d1a78, #414b50);
 }
 
 header {
@@ -73,6 +76,7 @@ main {
   margin-bottom: 20px;
   font-size: 80px;
   text-align: right;
+  color: black;
 }
 
 .check {
